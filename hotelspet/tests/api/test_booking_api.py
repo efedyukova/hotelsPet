@@ -1,8 +1,9 @@
 import allure
 import pytest
-from utils.api_client import api_client
-from config.config import BOOKING_PAYLOAD
-from utils.error_handler import error_handler
+from hotelspet.utils.api_booking import api_client
+from hotelspet.config.config import BOOKING_PAYLOAD
+from hotelspet.utils.error_handler import error_handler
+
 
 @allure.feature("Booking API")
 @allure.story("Create Booking")

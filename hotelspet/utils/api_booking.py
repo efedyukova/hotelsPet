@@ -1,6 +1,6 @@
 import requests
-from config.config import BASE_URL, BOOKING_ENDPOINT
-from utils.error_handler import error_handler
+from hotelspet.config.config import BASE_URL, BOOKING_ENDPOINT
+from hotelspet.utils.error_handler import error_handler
 
 
 class APIClient:

@@ -44,8 +44,8 @@ poetry --version
 
 ### **2. Clone the Repository**
 ```sh
-git clone https://github.com/your-username/qa-pet-project.git
-cd qa-pet-project
+git clone https://github.com/your-username/hotels
+cd hotels
 ```
 
 ---
@@ -74,7 +74,7 @@ BOOKING_PAYLOAD={"firstname": "John", "lastname": "Doe", "totalprice": 150, "dep
 
 By default, the environment is `dev`. You can change it using:
 ```sh
-TEST_ENV=staging poetry run pytest tests/api/test_create_booking.py
+TEST_ENV=staging poetry run pytest tests/api/test_booking_api.py
 ```
 
 ---
@@ -82,15 +82,10 @@ TEST_ENV=staging poetry run pytest tests/api/test_create_booking.py
 ## **📝 Running Tests**
 ### **1. Run API Tests (default: `dev`)**
 ```sh
-poetry run pytest tests/api/test_create_booking.py --alluredir=reports/
+poetry run pytest hotelspet/tests/api/test_booking_api.py --alluredir=reports/
 ```
 
-### **2. Run Tests in `staging` or `prod`**
-```sh
-TEST_ENV=staging poetry run pytest tests/api/test_create_booking.py --alluredir=reports/
-```
-
-### **3. View Allure Report**
+### **2. View Allure Report**
 ```sh
 poetry run allure serve reports/
 ```
