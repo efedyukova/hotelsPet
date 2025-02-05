@@ -1,7 +1,6 @@
 # **QA Automation Pet Project 🚀**
 
 This is a **QA Automation Pet Project** that demonstrates **REST API testing** using **Python, Poetry, Pytest, and Allure**.  
-It follows best practices, including **configurable environments, error handling, and structured test cases**.
 
 ## **📌 Features**
 ✔ **REST API tests** using `requests` and `pytest`  
