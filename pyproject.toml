@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "рhotelspet"
+version = "0.1.0"
+description = ""
+authors = ["Kate Fedyukova <ekaterina.fedyukova@fyst.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+pytest = "^8.3.4"
+allure-pytest = "^2.13.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

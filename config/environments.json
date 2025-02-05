@@ -1,0 +1,11 @@
+{
+    "dev": {
+        "ENV_FILE": "env.db.dev"
+    },
+    "staging": {
+        "ENV_FILE": "env.db.staging"
+    },
+    "prod": {
+        "ENV_FILE": "env.db.prod"
+    }
+}
